@@ -1,0 +1,44 @@
+*{
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+body{
+	background-color: #F8FF29;
+}
+
+canvas{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+	#log{
+		height: 20px;
+		width: 200px;
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		top: 0px;
+		right: 0px;
+	}
+	#log2{
+		height: 20px;
+		width: 200px;
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		top: 22px;
+		right: 0px;
+	}
+	#log3{
+		height: 30px;
+		width: 200px;
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		top: 50px;
+		right: 0px;
+	}
