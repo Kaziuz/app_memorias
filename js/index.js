@@ -250,10 +250,10 @@ function for_init(){
         figura_2.animate({ y: figura_2.y - vely},"ease-in-out-expo");
         figura_2.dragAndDrop({});
         	if (i == 1){
-        		//inicio();
+        		inicio();
         }else{
         	console.log("valor nulo");
-        };//asta qui voy
+        };
     }else{
     }
 
@@ -265,7 +265,7 @@ function for_init(){
         		inicio();
         }else{
         	console.log("valor nulo");
-        };//asta qui voy
+        };
     }else{
     }
 
@@ -277,7 +277,7 @@ function for_init(){
         		inicio();
         }else{
         	console.log("valor nulo");
-        };//asta qui voy
+        };
     }else{
     }
     
@@ -292,10 +292,10 @@ function for_init(){
         		}
         }else{
         	console.log("valor nulo");
-        };//asta qui voy
+        };
     }else{
     }
- } // ciclo for;
+ } // ciclo for
 
 } // funcion for_init();
 
