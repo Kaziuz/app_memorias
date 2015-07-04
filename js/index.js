@@ -204,6 +204,7 @@ contenidos_1.bind('click tap', function(){
     for_init();
 });
 
+/*esto seria donde comienso con mi funcion que da pie al ciclo for que contiene el array*/
 function for_init(){
 
        var img1;
@@ -245,6 +246,7 @@ function for_init(){
     })
     canvas.addChild(figura_2);
 
+//aqui es donde estoy animando mis objetos estoy tomando el obj numero 1 del ciclo for esto es lo que quiero hacer cuando le de click a un boton pero a qui lo tengo en automatico por defecto
     if (i == 1){
     	figura_2.x = posx + (i*54);
         figura_2.animate({ y: figura_2.y - vely},"ease-in-out-expo");
@@ -289,15 +291,18 @@ function for_init(){
     		inicio();
         		function inicio(){
         			figura_2.animate({ y: figura_2.y - 50},"ease-in-out-expo");
-        		}
+        		}//function que me hace la animacion de todos mis objetos del ciclo for 
         }else{
         	console.log("valor nulo");
         };
     }else{
     }
+    //asta qui mis animaciones 
  } // ciclo for
 
 } // funcion for_init();
+
+/*esto seria donde comienso con mi funcion que da pie al ciclo for que contiene el array*/
 
 menu_1();
 function menu_1(){
